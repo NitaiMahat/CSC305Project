@@ -1,1 +1,4 @@
 target/*
+# IntelliJ IDEA specific files and directories
+/.idea
+*.iml
