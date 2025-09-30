@@ -19,4 +19,10 @@ public class Team {
             this.players.addAll(players);
         }
     }
+
+    public void addPlayer(String playerName){
+        if (playerName != null && !playerName.trim().isEmpty()){
+            players.add(playerName);
+        }
+    }
 }
